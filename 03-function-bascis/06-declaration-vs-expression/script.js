@@ -5,7 +5,7 @@ function addDollarSign(value) {
 
 console.log(addDollarSign(50));
 
-// Funtion Expression 
+// Function Expression 
 const addPlusSign = function (value) {
     return '+' + value;
 };
