@@ -1,8 +1,9 @@
-const clearBtn = document.querySelector('#clear');
+const clearBtn = document.querySelector('#clear')
 const ul = document.querySelector('.items');
+const li = document.querySelectorAll('li')
 
-function onClear() {
-    alert('Clear Items');
+function onClear () {
+  alert('Clear Items')
 }
 
 // Javascript Event Listener
@@ -26,3 +27,6 @@ function onClear() {
 
 // setTimeout(() => clearBtn.click() , 5000);
 
+clearBtn.addEventListener('click', function() {
+  ul.remove(li)
+})
